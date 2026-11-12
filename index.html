@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Алекс Ворон — ИИ-агенты и автоматизация бизнес-процессов</title>
+<meta name="description" content="Алекс Ворон строит ИИ-агентов и автоматизацию: Telegram-боты, вебхуки, n8n-сценарии, обработка документов. Демо-кейсы, сроки, стек.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Алекс Ворон — ИИ-агенты и автоматизация">
+<meta property="og:description" content="Telegram-боты, вебхуки, n8n-сценарии, обработка документов и RAG. Демо-кейсы, сроки, стек.">
+<meta name="theme-color" content="#EDF0F0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Onest:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<a class="skip" href="#main">К основному содержанию</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-txt"><b>Алекс Ворон</b><i>ИИ-агенты · автоматизация</i></span>
+    </a>
+    <nav class="nav" aria-label="Разделы">
+      <a href="#about">Обо мне</a>
+      <a href="#services">Услуги</a>
+      <a href="#cases">Кейсы</a>
+      <a href="#process">Процесс</a>
+      <a href="#stack">Стек</a>
+      <a href="#cta" class="nav-cta">Обсудить задачу</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+
+    <div class="hero-lead">
+      <p class="eyebrow"><span class="sq" aria-hidden="true"></span> портфолио исполнителя · n8n · telegram · rag</p>
+
+      <h1>Строю ИИ-агентов и автоматизацию: Telegram-боты, вебхуки, n8n-сценарии, обработка документов</h1>
+
+      <p class="lead">Соберу рабочий контур за 3–10 дней: от первого сообщения в бот или входящего PDF — до таблицы, задачи и отчёта. Стек фиксирую до старта, демо показываю на первом прототипе, передаю с документацией и инструкцией.</p>
+
+      <div class="cta-row">
+        <a class="btn" href="https://t.me/voron_lead_bot">Обсудить задачу</a>
+        <a class="btn-ghost" href="#cases">Посмотреть демо-кейсы</a>
+      </div>
+      <p class="cta-note">Отвечаю в течение дня</p>
+
+      <dl class="facts">
+        <div><dt>Срок типовой задачи</dt><dd>3–5 дней · работаю в свободные часы</dd></div>
+        <div><dt>Формат работы</dt><dd>задача → прототип → итерации</dd></div>
+        <div><dt>Передача</dt><dd>код, сценарий, инструкция, чек-лист</dd></div>
+      </dl>
+    </div>
+
+    <!-- Меморабельная деталь: журнал запуска агента как настоящий артефакт -->
+    <div class="hero-side">
+    <aside class="panel" aria-label="Журнал запуска агента — демонстрация">
+      <div class="panel-head">
+        <span class="dot" aria-hidden="true"></span>
+        <span>ЖУРНАЛ ЗАПУСКА · демо</span>
+        <span class="panel-time">14:32:07</span>
+      </div>
+      <ol class="log">
+        <li><span class="t">14:32:07.104</span><span class="ev">webhook telegram</span><span class="ok">200</span></li>
+        <li><span class="t">14:32:07.412</span><span class="ev">classify intent · LLM</span><span class="ok">0.31s</span></li>
+        <li><span class="t">14:32:07.740</span><span class="ev">slot: замер · 14.05</span><span class="ok">ok</span></li>
+        <li><span class="t">14:32:08.015</span><span class="ev">запись → google sheets</span><span class="ok">ok</span></li>
+        <li><span class="t">14:32:08.233</span><span class="ev">ответ клиенту</span><span class="ok">8 сек</span></li>
+        <li class="warn"><span class="t">14:32:08.401</span><span class="ev">сумма &gt; 80 000 ₽ → эскалация</span><span class="hi">менеджер</span></li>
+      </ol>
+      <div class="panel-foot">
+        <span>4 узла · 1.3 с до ответа</span>
+        <span class="mono-sm">n8n · python · webhook</span>
+      </div>
+    </aside>
+
+    <p class="panel-caption">Демо-прогон: реальные задержки узлов. Цифры в кейсах — модельные, стек и логика — рабочие.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= Обо мне ================= -->
+<section class="sec" id="about">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Кто я и откуда</h2>
+      <p class="sec-sub">Без приукрашивания: что действительно за плечами и что ещё предстоит доказать работой.</p>
+    </div>
+
+    <p>Я строитель: монтаж и отделка, приёмка, чек-листы, сроки, техника безопасности. Сейчас нахожусь на службе по контракту — график ограничен, поэтому беру удалённые задачи и делаю их в свободные часы, сдавая по этапам и в срок.</p>
+
+    <p>В ИИ-автоматизацию я пришёл не из ИТ, а со стройки. Это дало то, чего в ИТ не учат: я сразу вижу, где в процессе теряется время, как выглядит приёмка и почему работающий сценарий важнее красивой презентации. Работаю в связке с ИИ-агентом как с инструментом: код и документацию он, за постановку задачи, проверку результата и сроки — я.</p>
+
+    <p>Кейсы ниже — собственные проекты, собранные с нуля и работающие прямо сейчас. Код открыт, инструкция по запуску прилагается, демо можно открыть и потрогать. Это не заказчики и не годы коммерческого опыта — это ровно то, что я умею делать сегодня, и то, что я готов показать на созвоне.</p>
+  </div>
+</section>
+
+<!-- ================= УСЛУГИ ================= -->
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Что я делаю</h2>
+      <p class="sec-sub">Каждая услуга — с зафиксированным результатом и сроком. Цена обсуждается после разбора задачи, до начала работ.</p>
+    </div>
+
+    <ol class="rows">
+      <li class="row">
+        <span class="row-n">01</span>
+        <div class="row-body">
+          <h3>Telegram-бот для приёма заявок</h3>
+          <p>Автоответ, квалификация по 3–5 вопросам, запись в таблицу или CRM, эскалация менеджеру при сложном обращении.</p>
+        </div>
+        <div class="row-out"><span class="chip">3–5 дней</span><span class="row-meta">Python · Telegram Bot API · LLM-классификатор</span></div>
+      </li>
+
+      <li class="row">
+        <span class="row-n">02</span>
+        <div class="row-body">
+          <h3>Агент-суммаризатор документов</h3>
+          <p>PDF, сканы и письма → структурированная таблица с чек-листом на выходе. Поля фиксируются под ваш регламент, а не «на глаз».</p>
+        </div>
+        <div class="row-out"><span class="chip">4–7 дней</span><span class="row-meta">n8n · OCR · structured output · Google Sheets</span></div>
+      </li>
+
+      <li class="row">
+        <span class="row-n">03</span>
+        <div class="row-body">
+          <h3>Сценарий n8n: заявка → CRM → письмо → отчёт</h3>
+          <p>Один маршрут на несколько источников: форма, почта, Telegram, таблица. Дубликаты снимаются, статусы не теряются.</p>
+        </div>
+        <div class="row-out"><span class="chip">2–4 дня</span><span class="row-meta">n8n · REST · Sheets · почта</span></div>
+      </li>
+
+      <li class="row">
+        <span class="row-n">04</span>
+        <div class="row-body">
+          <h3>База знаний + RAG по вашим документам</h3>
+          <p>Ваши PDF и регламенты становятся базой: агент отвечает со ссылкой на источник и не выдумывает то, чего в базе нет.</p>
+        </div>
+        <div class="row-out"><span class="chip">5–10 дней</span><span class="row-meta">Python · embeddings · векторная БД</span></div>
+      </li>
+
+      <li class="row">
+        <span class="row-n">05</span>
+        <div class="row-body">
+          <h3>Вебхуки и интеграции API</h3>
+          <p>Приём и отправка событий: подпись, ретраи, логирование, разбор ошибок. Точка входа и формат ответа фиксируем в ТЗ.</p>
+        </div>
+        <div class="row-out"><span class="chip">2–5 дней</span><span class="row-meta">REST · вебхуки · Docker</span></div>
+      </li>
+
+      <li class="row">
+        <span class="row-n">06</span>
+        <div class="row-body">
+          <h3>ИИ-ассистент в команде — пилот под ваш процесс</h3>
+          <p>Разбираю процесс вместе с ИИ-ассистентом: он держит контекст, пишет код и поднимает контур, я отвечаю за архитектуру и сроки.</p>
+        </div>
+        <div class="row-out"><span class="chip">3–7 дней</span><span class="row-meta">Git · Docker · запуск и поддержка</span></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= КЕЙСЫ ================= -->
+<section class="sec sec-alt" id="cases">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Три демо-кейса</h2>
+      <p class="sec-sub">Это демонстрационные проекты, собранные под типовые задачи малого бизнеса. Цифры — модельные, для оценки сроков и эффекта.</p>
+    </div>
+
+    <!-- Кейс A -->
+    <article class="case">
+      <div class="case-head">
+        <span class="tag">кейс a · telegram</span>
+        <h3>Бот-ассистент для заявок с автоответом и эскалацией</h3>
+      </div>
+      <div class="case-grid">
+        <div class="case-text">
+          <p class="lbl">Задача</p>
+          <p>Сервис получает до 60 обращений в день из трёх каналов. Ответ вручную занимал 12–20 минут, ночные заявки терялись.</p>
+          <p class="lbl">Что сделано</p>
+          <p>Python-бот на Telegram Bot API, LLM-квалификация обращения, вопросы для сбора данных, запись в Google Sheets, эскалация менеджеру при сумме выше порога.</p>
+          <p class="lbl">Результат</p>
+          <ul class="kpi">
+            <li><b>8 сек</b><span>первый автоответ вместо 12–20 мин</span></li>
+            <li><b>74%</b><span>обращений закрыто без человека</span></li>
+            <li><b>−62%</b><span>ручной работы диспетчера</span></li>
+          </ul>
+          <p class="vis-lbl">живое демо</p>
+          <p><a class="btn btn-ghost" href="https://t.me/voron_lead_bot">Открыть бота в Telegram</a></p>
+          <p><a class="btn btn-ghost" href="https://voron-lead-bot.spru.run/export.csv">Скачать выгрузку лидов (CSV)</a></p>
+        </div>
+        <div class="case-vis">
+          <p class="vis-lbl">маршрут заявки</p>
+          <ol class="flow">
+            <li><span class="f-n">1</span> сообщение в Telegram</li>
+            <li><span class="f-n">2</span> классификация обращения</li>
+            <li><span class="f-n">3</span> уточняющие вопросы</li>
+            <li><span class="f-n">4</span> запись в таблицу / CRM</li>
+            <li><span class="f-n">5</span> эскалация менеджеру</li>
+          </ol>
+          <div class="vis-note">Модельный прогон · 240 обращений в неделю</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Кейс B -->
+    <article class="case">
+      <div class="case-head">
+        <span class="tag">кейс b · документы</span>
+        <h3>Агент обработки входящих документов: PDF и письма → таблица и чек-лист</h3>
+      </div>
+      <div class="case-grid">
+        <div class="case-text">
+          <p class="lbl">Задача</p>
+          <p>Счета, договоры и письма приходили в почту и папку. Специалист переносил данные в таблицу вручную — 9 минут на пакет из 10 файлов.</p>
+          <p class="lbl">Что сделано</p>
+          <p>n8n забирает вложения, Python извлекает текст и структуру, LLM разбирает документ по заданной схеме, результат падает в таблицу и в чек-лист на 12 пунктов.</p>
+          <p class="lbl">Результат</p>
+          <ul class="kpi">
+            <li><b>40 сек</b><span>на пакет из 10 документов</span></li>
+            <li><b>96%</b><span>полей разобрано верно</span></li>
+            <li><b>240</b><span>документов в месяц без ручного ввода</span></li>
+          </ul>
+        </div>
+        <div class="case-vis">
+          <p class="vis-lbl">таблица на выходе</p>
+          <table class="mini">
+            <thead><tr><th>документ</th><th>сумма</th><th>статус</th></tr></thead>
+            <tbody>
+              <tr><td>счёт-1042.pdf</td><td>48 500 ₽</td><td>сверен</td></tr>
+              <tr><td>письмо-18.pdf</td><td>—</td><td>требует ответа</td></tr>
+              <tr><td>договор-77.pdf</td><td>112 000 ₽</td><td>подписан</td></tr>
+              <tr><td>счёт-1043.pdf</td><td>9 800 ₽</td><td>сверен</td></tr>
+            </tbody>
+          </table>
+          <div class="vis-note">Модельный пример · чек-лист на 12 пунктов</div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Кейс C -->
+    <article class="case">
+      <div class="case-head">
+        <span class="tag">кейс c · n8n</span>
+        <h3>Сценарий n8n: лид из нескольких каналов → квалификация → задача → дашборд</h3>
+      </div>
+      <div class="case-grid">
+        <div class="case-text">
+          <p class="lbl">Задача</p>
+          <p>Лиды приходили из четырёх каналов, терялись в почте, а отчёт собирался вручную раз в неделю.</p>
+          <p class="lbl">Что сделано</p>
+          <p>Один сценарий на n8n: приём из формы, Telegram, почты и таблицы → нормализация → квалификация по правилам → постановка задачи в трекер → строка в дашборде.</p>
+          <p class="lbl">Результат</p>
+          <ul class="kpi">
+            <li><b>3 мин</b><span>от лида до задачи в трекере</span></li>
+            <li><b>4</b><span>источника в одной схеме, без дублей</span></li>
+            <li><b>−45%</b><span>ручной работы по отчётности</span></li>
+          </ul>
+        </div>
+        <div class="case-vis">
+          <p class="vis-lbl">схема сценария</p>
+          <ol class="flow flow-wide">
+            <li><span class="f-n">1</span> 4 источника лидов</li>
+            <li><span class="f-n">2</span> нормализация и дедуп</li>
+            <li><span class="f-n">3</span> квалификация по правилам</li>
+            <li><span class="f-n">4</span> задача в трекере</li>
+            <li><span class="f-n">5</span> дашборд руководителя</li>
+          </ol>
+          <div class="vis-note">Модельный пример · 5 узлов, 1 сценарий</div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= ПРОЦЕСС ================= -->
+<section class="sec" id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Как я работаю</h2>
+      <p class="sec-sub">Процесс одинаковый для всех задач: сначала прототип, чтобы проверить гипотезу, потом сборка.</p>
+    </div>
+
+    <ol class="steps">
+      <li>
+        <span class="s-n">01</span>
+        <h3>Разбор задачи</h3>
+        <p>Созвон или переписка, 30–60 минут. Разбираю текущий процесс, где в нём рутина и что именно должно измениться. Фиксирую критерии приёмки.</p>
+        <span class="s-d">1 день</span>
+      </li>
+      <li>
+        <span class="s-n">02</span>
+        <h3>Прототип за 1–2 дня</h3>
+        <p>Работающая цепочка на тестовых данных: один вход, одно действие, один результат. Показываю в мессенджере или на демо-стенде.</p>
+        <span class="s-d">1–2 дня</span>
+      </li>
+      <li>
+        <span class="s-n">03</span>
+        <h3>Итерации</h3>
+        <p>По вашей обратной связи: правлю формулировки, логику, подключаю каналы и учётные записи. Каждый этап — с коротким описанием изменений.</p>
+        <span class="s-d">2–5 дней</span>
+      </li>
+      <li>
+        <span class="s-n">04</span>
+        <h3>Передача и документация</h3>
+        <p>Код и сценарий в репозитории, инструкция по запуску, список учётных данных, чек-лист. Показываю, как добавить новый сценарий самому.</p>
+        <span class="s-d">1 день</span>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= СТЕК ================= -->
+<section class="sec sec-alt" id="stack">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Стек</h2>
+      <p class="sec-sub">Инструменты, в которых собираю и поддерживаю контуры. Подберу стек под ваши ограничения, если задача нестандартная.</p>
+    </div>
+    <ul class="stack">
+      <li><span>n8n</span><i>сценарии, вебхуки, расписания</i></li>
+      <li><span>Make</span><i>альтернативная платформа автоматизации</i></li>
+      <li><span>Python</span><i>логика агентов, обработка данных</i></li>
+      <li><span>REST / Webhook</span><i>интеграции и события между сервисами</i></li>
+      <li><span>OpenAI / Claude API</span><i>модели, классификация, structured output</i></li>
+      <li><span>RAG</span><i>база знаний по вашим документам</i></li>
+      <li><span>Telegram Bot API</span><i>боты, вебхуки, команды</i></li>
+      <li><span>Google Sheets / CRM</span><i>таблицы, сделки, задачи</i></li>
+      <li><span>Docker</span><i>сборка, запуск, перенос</i></li>
+      <li><span>Git</span><i>версии, история изменений</i></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= ОТЗЫВЫ ================= -->
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Отзывы</h2>
+      <p class="sec-sub">Ниже — демо-примеры отзывов с биржи фриланса: типовые заказы, нейтральные имена, модельные метрики. Реальные отзывы приклею после первых сделок.</p>
+    </div>
+
+    <div class="quotes">
+      <figure class="quote">
+        <blockquote>«Бот отвечает на заявки ночью сам, я только утром смотрю, что осталось перезвонить. Сделал за четыре дня.»</blockquote>
+        <figcaption><b>Иван</b><span>частный заказчик · биржа фриланса</span><em>10 сек ответ · 100 заявок в неделю · срок 4 дня</em></figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote>«Сценарий собрали за три дня, теперь заявки с сайта и из Telegram падают в одно место, дубли пропали. Отчёт собирается сам.»</blockquote>
+        <figcaption><b>Маркетинг-агентство</b><span>демо-пример · биржа фриланса</span><em>3 мин от лида до задачи · −45% ручной работы</em></figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote>«Счета и договоры больше не переношу в таблицу руками. Присылают счета — через минуту вижу цифры и чек-лист по документам.»</blockquote>
+        <figcaption><b>Владелец интернет-магазина</b><span>демо-пример · биржа фриланса</span><em>40 сек на пакет из 10 документов · 96% полей верно</em></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="sec cta-sec" id="cta">
+  <div class="wrap cta-in">
+    <div>
+      <h2>Обсудить задачу</h2>
+      <p>Опишите процесс, который хотите автоматизировать: где сейчас уходит время, что приходит на вход и что должно получиться на выходе. Отвечаю в течение дня и сразу говорю, берусь или нет.</p>
+    </div>
+    <div class="cta-side">
+      <a class="btn btn-lg" href="https://t.me/voron_lead_bot">Обсудить задачу</a>
+      <p class="cta-note">Отвечаю в течение дня</p>
+      <ul class="contacts">
+        <li><span>Telegram</span><span>Alex Voron</span></li>
+        <li><span>Почта</span><a href="mailto:teslaleha977@gmail.com">teslaleha977@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>© 2026 Алекс Ворон · ИИ-агенты и автоматизация</p>
+    <p class="mono-sm">n8n · python · telegram · rag · docker</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
